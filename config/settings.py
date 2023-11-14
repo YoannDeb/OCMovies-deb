@@ -1,5 +1,5 @@
 """
-Django settings for OCMovies-API project.
+Django's settings for OCMovies-API project.
 """
 
 from pathlib import Path
@@ -15,9 +15,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '1nj37tgw5of%x=(f$u#7*m9hx_mz08(080b1@)%8duaz1un4+7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['.debinformatique.fr', '127.0.0.1']
 
 
 # Application definition
